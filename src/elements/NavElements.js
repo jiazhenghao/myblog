@@ -6,6 +6,10 @@ export const NavWrapper = styled.nav`
   display: flex;
   align-items: center;
 
+  & img {
+    height: 7.8rem;
+  }
+
   @media ${props => props.theme.breakpoints.tablet} {
     grid-colunm: 2 / span6;
   }
