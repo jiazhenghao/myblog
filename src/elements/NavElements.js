@@ -8,9 +8,12 @@ export const NavWrapper = styled.nav`
 
   & img {
     height: 7.8rem;
+    width: 10%;
   }
 
   @media ${props => props.theme.breakpoints.tablet} {
-    grid-colunm: 2 / span6;
+    display: none;
+    /* grid-colunm: 2 / span6;
+    */
   }
 `

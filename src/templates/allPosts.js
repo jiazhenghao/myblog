@@ -22,10 +22,11 @@ const allPosts = ({ pageContext, data }) => {
       <FeatureImage />
       <Content>
         <H1 textAlign="center" margin="0 0 1rem 0">
-          sjdklsajdlsdjakldjsdlakdjalskdjldk
+          Sweet Family Blog
         </H1>
         <P color="dark2" textAlign="center">
-          sdsdsdsdsdsdjakldjslkda
+          A simple blog built for recording the growing-up of my beloved son,
+          YIMENG
         </P>
         {posts.map(post => (
           <ContentCard
