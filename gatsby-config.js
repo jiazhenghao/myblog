@@ -1,4 +1,13 @@
 module.exports = {
+  siteMetadata: {
+    title: "Yimeng's blog",
+    description:
+      "A simple blog built with Gatsby, React, MDX and GraphQL, this blog is created for recording every wonderful moment in my son YIMENG's grown-up.",
+    url: "",
+    image: "/yimeng.jpeg",
+    twitterUsername: "@jiazhenghao",
+    author: "Zhenghao Jia",
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
