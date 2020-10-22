@@ -17,6 +17,8 @@ const allPosts = ({ pageContext, data }) => {
   const nextPage = `/${currentPage + 1}`
   const posts = data.allMdx.edges
 
+  // posts.map(post => console.log(post.node.frontmatter.slug))
+
   return (
     <Container>
       <FeatureImage />

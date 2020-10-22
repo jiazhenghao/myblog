@@ -3,6 +3,8 @@ import { H2, P, CardWrapper } from "../elements"
 import { Button } from "../components"
 
 export const ContentCard = ({ date, title, excerpt, slug }) => {
+  //console.log(slug)
+  const href = "/" + slug
   return (
     <CardWrapper>
       <P size="xSmall" textAlign="center" margin="0 0 0.5rem 0" color="dark2">
@@ -14,7 +16,7 @@ export const ContentCard = ({ date, title, excerpt, slug }) => {
       <P size="small" color="dark2" textAlign="center" margin="0 0 1.5rem 0">
         {excerpt}
       </P>
-      <Button href={slug}>READ MORE</Button>
+      <Button href={href}>READ MORE</Button>
     </CardWrapper>
   )
 }
